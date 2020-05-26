@@ -4,6 +4,9 @@
 
 
 // start header 
+.header {
+  background-color: #fff;
+}
 
 .header__top-inner {
   display: flex;
@@ -124,13 +127,13 @@
 }
 
 .basket {
+  margin-right: 20px;
   span {
     background-color: $green;
   }
 }
 
 .user {
-  margin-left: 20px;
   margin-right: 25px;
   padding-right: 20px;
   position: relative;
@@ -194,6 +197,7 @@
   height: 0;
   overflow: hidden;
   transition: all .3s;
+  z-index: 1;
 }
 
 .user__box,
@@ -332,7 +336,10 @@
   color: $tomato;
 }
 
-
+.header__btn-menu,
+.menu__btn {
+  display: none;
+}
 
 
 // end header 

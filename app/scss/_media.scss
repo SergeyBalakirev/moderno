@@ -102,6 +102,9 @@
 }
 
 @media (max-width: 520px) {
+  .header {
+    overflow: hidden;
+  }
   .header__btn-menu {
     display: block;
     width: 70px;

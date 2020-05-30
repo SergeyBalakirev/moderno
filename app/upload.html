@@ -292,8 +292,8 @@
 
               <div class="upload__inner-content">
                 <div class="upload-line">
-                  <label>Select Categories<span>*</span></label>
-                  <select>
+                  <label>Select Categories <span>*</span></label>
+                  <select required>
                     <option>Select</option>
                     <option>Select</option>
                     <option>Select</option>
@@ -301,24 +301,24 @@
                   </select>
                 </div>
                 <div class="upload-line">
-                  <label>Product Name<span>*</span></label>
-                  <input type="text" placeholder="Enter your product name here ...">
+                  <label>Product Name <span>*</span></label>
+                  <input type="text" placeholder="Enter your product name here ..." required>
                 </div>
                 <div class="upload-line">
-                  <label>Product Description<span>*</span></label>
-                  <textarea placeholder="<h1> Type your text  here </h1/>"></textarea>
+                  <label>Product Description <span>*</span></label>
+                  <textarea placeholder="<h1> Type your text  here </h1/>" required></textarea>
                 </div>
                 <div class="upload-line">
-                  <label>Upload Main File<span>*</span></label>
-                  <input type="file">
+                  <label>Upload Main File <span>*</span></label>
+                  <input type="file" required data-placeholder="No File Choosen" data-browse="Choose File">
                 </div>
                 <div class="upload-line">
-                  <label>Upload Screenshots<span>*</span></label>
-                  <input type="file">
+                  <label>Upload Screenshots <span>*</span></label>
+                  <input type="file" required data-placeholder="No File Choosen" data-browse="Choose File">
                 </div>
                 <div class="upload-line">
-                  <label>File Included<span>*</span></label>
-                  <select>
+                  <label>File Included <span>*</span></label>
+                  <select required>
                     <option>Select File Type </option>
                     <option>Select File Type </option>
                     <option>Select File Type </option>
@@ -326,12 +326,12 @@
                   </select>
                 </div>
                 <div class="upload-line">
-                  <label>File Dimensions<span>*</span></label>
-                  <input type="text" placeholder="Enter the item  dimentionss here ...">
+                  <label>File Dimensions <span>*</span></label>
+                  <input type="text" placeholder="Enter the item  dimentionss here ..." required>
                 </div>
                 <div class="upload-line">
-                  <label>Item Tags<span>*</span></label>
-                  <input type="text" placeholder="Enter Tag Here">
+                  <label>Item Tags <span>*</span></label>
+                  <input type="text" placeholder="Enter Tag Here" required>
                 </div>
               </div>
 
@@ -339,13 +339,16 @@
 
               <div class="upload__inner-content">
                 <div class="upload-line">
-                  <label>Regular License<span>*</span></label>
-                  <input type="text" placeholder="$00.00">
+                  <label>Regular License <span>*</span></label>
+                  <input type="text" placeholder="$00.00" required>
                 </div>
                 <div class="upload-line">
-                  <label>Extended License<span>*</span></label>
-                  <input type="text" placeholder="$00.00">
+                  <label>Extended License <span>*</span></label>
+                  <input type="text" placeholder="$00.00" required>
                 </div>
+
+                <button type="submit">Submit</button>
+
               </div>
 
             </div>

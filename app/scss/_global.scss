@@ -26,6 +26,8 @@ body {
 
 
 .wrapper {
+  position: relative;
+  overflow-x: hidden;
 	display: flex;
 	flex-direction: column;
 	min-height: 100%;
@@ -92,6 +94,8 @@ li {
 .breadcrumbs {
   &__inner {
     padding: 45px 0 40px;
+    overflow: hidden;
+    width: 1200px;
   }
   &__list {
     li {
